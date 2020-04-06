@@ -1,0 +1,11 @@
+<%- include("par/head") %>
+
+<h1>add a new campsite</h1>
+
+<form action="/campgrounds" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="img" placeholder="img url">
+    <button type="submit">Submit</button>
+</form>
+
+<%- include("par/tail") %>

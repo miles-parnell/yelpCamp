@@ -1,0 +1,12 @@
+<%- include("par/head") %>
+
+<ol>
+    <% campgrounds.forEach(i => { %>
+        <div>
+            <h4><%= i.name %></h4>
+            <img src="<%= i.img %>">
+        </div>
+   <% }); %>
+</ol>
+
+<%- include("par/tail") %>
